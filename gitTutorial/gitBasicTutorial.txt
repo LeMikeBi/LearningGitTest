@@ -1,0 +1,33 @@
+cd ~      - change dir to home
+cd ..	  - change directory back 1
+ls        - list all folders
+
+git commit -m "this is our first commit"
+git log - commit history
+git log --author "name"
+git diff - shows differences in the file in repository X PC folder
+git diff - working aread with repository
+git diff -staged - compares staging area with repository
+git rm nameOfFile - remove file from repository and form working area - has to be commited
+git mv second.txt pudding.txt - renaming second to pudding
+git mv pudding.txt LoveNotes/patty.txt - moving pudding to lovenotes and renaming it to patty
+
+short cut to change into repository!!!:
+git commit -am "Comment" - no staging
+!!!danger!!! - use only for modifying files not renaming moving creating!!!!
+:
+
+
+!!! git checkout -- index.html     - take index.html from repository and replace the one on working stage!!!
+
+
+
+creating > staging area - files ready to get commited > repository - final commited staged
+git reset HEAD profile.html - removing from staging area
+
+
+git checkout commitNumber -- fileName.txt or html or something
+
+git remote add NameOfRemoteRepo https://github.com/LeMikeBi/LearningGitTest.git - pridat vzdaleny uloziste s nazvem NameOf....adresa
+git push -u githubRepo- push all into online repository gitHubRepo - giving on the server
+git fetch - getting from server
